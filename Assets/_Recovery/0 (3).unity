@@ -1012,13 +1012,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9abed4e422b1ea4aa0524472e1b5f79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Shotgun
-  _damage: 3
+  _damage: 10
   _maxDistance: 500
   _layerMask:
     serializedVersion: 2
     m_Bits: 115
-  _projectilePrefab: {fileID: 4349375374642558673, guid: 9835368df725ca046a4ae836b9df9476, type: 3}
-  _velocity: 50
 --- !u!1001 &1324418964
 PrefabInstance:
   m_ObjectHideFlags: 0

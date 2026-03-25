@@ -28,6 +28,7 @@ public class PlayerController : MonoBehaviour
     { 
         _characterController = GetComponent<CharacterController>();
         _transform = transform;
+        _shotgun.Initialize(_characterController);
         _cameraAngle = _cameraTransform.localEulerAngles.x;
     }
 
